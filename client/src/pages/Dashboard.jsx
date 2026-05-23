@@ -146,7 +146,7 @@ const Dashboard = () => {
         </div>
         <div className="relative z-10 flex items-center gap-2.5 px-4 py-2.5 rounded-xl bg-slate-950 border border-indigo-500/50 hover:border-indigo-400 text-indigo-300 hover:text-white transition-all self-start md:self-auto text-xs font-bold tracking-wider uppercase">
           <Zap className="w-4 h-4 fill-indigo-400" />
-          TaskFlow AI Analytics
+          TaskFlow Analytics
         </div>
       </div>
 

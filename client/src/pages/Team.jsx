@@ -47,7 +47,7 @@ const Team = () => {
       <div>
         <h1 className="text-3xl font-extrabold tracking-tight">Team Collaboration Hub</h1>
         <p className="text-sm text-slate-500 dark:text-slate-400 mt-1">
-          Explore all users registered in this TaskFlow AI workspace directory.
+          Explore all users registered in this TaskFlow workspace directory.
         </p>
       </div>
 

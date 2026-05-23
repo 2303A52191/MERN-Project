@@ -1,7 +1,7 @@
 {
-  "name": "taskflow-ai-server",
+  "name": "taskflow-server",
   "version": "1.0.0",
-  "description": "TaskFlow AI Project Management & Team Collaboration Platform Server",
+  "description": "TaskFlow Project Management & Team Collaboration Platform Server",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",

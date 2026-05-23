@@ -19,7 +19,7 @@ const ProtectedRoute = ({ children }) => {
         <div className="flex flex-col items-center gap-4">
           <div className="animate-spin h-10 w-10 border-4 border-primary-500 border-t-transparent rounded-full shadow-neon-indigo" />
           <p className="text-sm font-semibold tracking-wide text-slate-400">
-            Syncing TaskFlow AI workspace...
+            Syncing TaskFlow workspace...
           </p>
         </div>
       </div>

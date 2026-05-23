@@ -56,7 +56,7 @@ const DashboardLayout = ({ children }) => {
               <span className="text-xl font-bold tracking-tight">T</span>
             </div>
             <span className="text-xl font-extrabold tracking-tight text-slate-800 dark:text-white">
-              TaskFlow <span className="text-primary-500 dark:text-indigo-400">AI</span>
+              TaskFlow
             </span>
           </Link>
           <button

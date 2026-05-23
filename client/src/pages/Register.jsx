@@ -32,7 +32,7 @@ const Register = () => {
     setIsSubmitting(false);
 
     if (result.success) {
-      showToast('Registration successful! Welcome to TaskFlow AI.', 'success');
+      showToast('Registration successful! Welcome to TaskFlow.', 'success');
       navigate('/');
     } else {
       showToast(result.message, 'error');

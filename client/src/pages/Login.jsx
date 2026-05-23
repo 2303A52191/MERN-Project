@@ -26,7 +26,7 @@ const Login = () => {
     setIsSubmitting(false);
 
     if (result.success) {
-      showToast('Welcome back to TaskFlow AI!', 'success');
+      showToast('Welcome back to TaskFlow!', 'success');
       navigate('/');
     } else {
       showToast(result.message, 'error');
@@ -47,7 +47,7 @@ const Login = () => {
             Sign In
           </h2>
           <p className="text-slate-300 text-sm font-semibold">
-            Enter details to access your TaskFlow AI workspace
+            Enter details to access your TaskFlow workspace
           </p>
         </div>
 
