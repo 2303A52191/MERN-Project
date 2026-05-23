@@ -35,15 +35,10 @@ const Login = () => {
 
   return (
     <div className="relative min-h-screen flex items-center justify-center bg-slate-950 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-indigo-950/45 via-slate-950 to-slate-950 px-4 overflow-hidden">
-      
-      {/* 1. Neon Glowing Backdrop Circles */}
       <div className="absolute top-1/4 left-1/4 w-[400px] h-[400px] rounded-full bg-primary-500/15 blur-[120px] glow-pulse" />
       <div className="absolute bottom-1/4 right-1/4 w-[400px] h-[400px] rounded-full bg-brand-500/15 blur-[120px] glow-pulse" />
 
-      {/* 2. Authentication Card */}
       <div className="relative w-full max-w-md rounded-3xl overflow-hidden shadow-2xl shadow-indigo-950/60 border border-slate-700 bg-slate-900/90 backdrop-blur-2xl p-8 md:p-10">
-        
-        {/* Header Branding */}
         <div className="flex flex-col items-center mb-8">
           <div className="flex items-center justify-center w-12 h-12 rounded-2xl bg-gradient-to-tr from-primary-500 to-brand-500 text-white shadow-neon-indigo mb-4">
             <span className="text-2xl font-extrabold">T</span>
@@ -56,9 +51,7 @@ const Login = () => {
           </p>
         </div>
 
-        {/* Input Form */}
         <form onSubmit={handleSubmit} className="space-y-5">
-          {/* Email input field */}
           <div className="space-y-1.5">
             <label className="text-xs font-extrabold uppercase tracking-wider text-slate-200">
               Email Address
@@ -78,7 +71,6 @@ const Login = () => {
             </div>
           </div>
 
-          {/* Password Input field */}
           <div className="space-y-1.5">
             <div className="flex justify-between items-center">
               <label className="text-xs font-extrabold uppercase tracking-wider text-slate-200">
@@ -110,7 +102,6 @@ const Login = () => {
             </div>
           </div>
 
-          {/* Submit Button */}
           <button
             type="submit"
             disabled={isSubmitting}
@@ -130,7 +121,6 @@ const Login = () => {
           </button>
         </form>
 
-        {/* Form Footer Link */}
         <div className="mt-8 text-center text-sm font-medium">
           <p className="text-slate-300">
             Don't have an account yet?{' '}
